@@ -1,0 +1,51 @@
+.video-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .video-section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .video-container {
+    width: 100%;
+    max-width: 320px;
+    position: relative;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .video-title {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 0.5rem;
+  }
+  
+  /* Responsive design */
+  @media (min-width: 600px) {
+    .video-container {
+      width: 48%;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .video-container {
+      width: 30%;
+    }
+  }
+  

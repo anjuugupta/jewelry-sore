@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import {
-  bannerImgOne,
-  bannerImgTwo,
-  bannerImgThree,
-} from "../../assets/images";
+
+import one from '../../assets/images/banner/one.png'
+import two from '../../assets/images/banner/two.png'
+import three from '../../assets/images/banner/three.png'
+import four from '../../assets/images/banner/four.png'
+
+// import {
+//   bannerImgOne,
+//   bannerImgTwo,
+//   bannerImgThree,
+// } from "../../assets/images";
+
 import Image from "../designLayouts/Image";
 
 const Banner = () => {
@@ -104,17 +111,30 @@ const Banner = () => {
       <Slider {...settings}>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgOne} />
+
+            <Image imgSrc={one} />
+
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgTwo} />
+
+            <Image imgSrc={two} />
+
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgThree} />
+
+            <Image imgSrc={three} />
+
+          </div>
+        </Link>
+        <Link to="/offer">
+          <div>
+
+            <Image imgSrc={four} />
+
           </div>
         </Link>
       </Slider>

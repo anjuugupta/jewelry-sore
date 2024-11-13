@@ -22,6 +22,21 @@ import Offer from "./pages/Offer/Offer";
 import Payment from "./pages/payment/Payment";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
+import { Earing } from "./components/SearchByCatregri/Earing";
+import { Pendants } from "./components/SearchByCatregri/Pendants";
+import { FingerRing } from "./components/SearchByCatregri/FingerRing";
+import { Mangalsutra } from "./components/SearchByCatregri/Mangalsutra";
+import { Chains } from "./components/SearchByCatregri/Chains";
+import { NosePin } from "./components/SearchByCatregri/NosePin";
+import { Necklace } from "./components/SearchByCatregri/Necklace";
+import { NecklaceSet } from "./components/SearchByCatregri/NecklaceSet";
+import { Bangels } from "./components/SearchByCatregri/Bangels";
+import { Brecelets } from "./components/SearchByCatregri/Brecelets";
+import { PendatsEaringSet } from "./components/SearchByCatregri/PendatsEaringSet";
+import UserList from "./pages/UserCard/UserList";
+import { Ring } from "./components/SearchByCatregri/Ring";
+import Blog from "./components/Blog/Blog";
+import BlogDetail from "./components/Blog/BlogDetail";
 
 const Layout = () => {
   return (
@@ -51,6 +66,23 @@ const router = createBrowserRouter(
         <Route path="/product/:_id" element={<ProductDetails />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/paymentgateway" element={<Payment />}></Route>
+        {/* ==================== Product by catregrie Start ===================== */}
+         <Route path="/ring" element={<Ring />}></Route>
+         <Route path="/earing" element={<Earing />}></Route>
+         <Route path="/pendants" element={<Pendants />}></Route>
+         <Route path="/fingerring" element={<FingerRing />}></Route>
+         <Route path="/mangalsutra" element={<Mangalsutra />}></Route>
+         <Route path="/chains" element={<Chains />}></Route>
+         <Route path="/nosepin" element={<NosePin />}></Route>
+         <Route path="/necklace" element={<Necklace />}></Route>
+         <Route path="/necklaceset" element={<NecklaceSet />}></Route>
+         <Route path="/bangles" element={<Bangels />}></Route>
+         {/* <Route path="/bangles" element={<Bangels />}></Route> */}
+         <Route path="/bracelets" element={<Brecelets />}></Route>
+         <Route path="/pendantsearringset" element={<PendatsEaringSet />}></Route>
+         <Route path="/userlist" element={<UserList />}></Route>
+         <Route path="/" element={<Blog />}></Route>
+         <Route path="/blog/:id" element={<BlogDetail />}></Route>
       </Route>
       <Route path="/signup" element={<SignUp />}></Route>
       <Route path="/signin" element={<SignIn />}></Route>

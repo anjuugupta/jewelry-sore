@@ -1,0 +1,69 @@
+.user-card {
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 8px 0;
+    border-radius: 8px;
+    align-items: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    border-radius: 5px; /* Optional: rounded corners */
+    overflow: hidden; /* Optional: prevent overflow */
+}
+.user-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Create 5 equal columns */
+    gap: 10px; /* Space between cards */
+}
+
+.product-image {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-size: 18px;
+    margin: 0 0 8px;
+}
+
+.product-price {
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #555;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    border: none;
+    padding: 8px 12px;
+    margin: 0 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination button:hover {
+    background-color: #007bff;
+    color: #fff;
+}

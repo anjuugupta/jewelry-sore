@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
+import JewelryHeroSection from "../JewelryHeroSection/JewelryHeroSection";
+import JewelryAd from "../../components/JewelryAd/JewelryAd";
 
 const About = () => {
   const location = useLocation();
@@ -12,16 +14,14 @@ const About = () => {
     <div className="max-w-container mx-auto px-4">
       <Breadcrumbs title="About" prevLocation={prevLocation} />
       <div className="pb-10">
-        <h1 className="max-w-[600px] text-base text-lightText mb-2">
-          <span className="text-primeColor font-semibold text-lg">Orebi</span>{" "}
-          is one of the world's leading ecommerce brands and is internationally
-          recognized for celebrating the essence of classic Worldwide cool
-          looking style.
-        </h1>
+        <JewelryHeroSection />
+        <JewelryAd />
         <Link to="/shop">
-          <button className="w-52 h-10 bg-primeColor text-white hover:bg-black duration-300">
-            Continue Shopping
-          </button>
+          <div className="py-10 text-center">
+            <button className="w-52 h-10 bg-[#ab7813]  text-white hover:bg-[#ab7814] duration-300">
+              Continue Shopping
+            </button>
+          </div>
         </Link>
       </div>
     </div>

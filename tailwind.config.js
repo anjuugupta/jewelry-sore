@@ -27,7 +27,13 @@ module.exports = {
       boxShadow: {
         testShadow: "0px 0px 54px -13px rgba(0,0,0,0.7)",
       },
+      fontSize: {
+        'responsive-sm': ['0.875rem', { lineHeight: '1.25rem' }], // 14px for small devices
+        'responsive-md': ['1rem', { lineHeight: '1.5rem' }], // 16px for medium devices
+        'responsive-lg': ['1.125rem', { lineHeight: '1.75rem' }], // 18px for larger screens
+      },
     },
   },
+  variants: {},
   plugins: [require("tailwind-scrollbar")],
 };

@@ -1,0 +1,29 @@
+.blog-detail {
+    margin: 40px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .blog-detail img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .blog-detail h1 {
+    font-size: 32px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .blog-detail p {
+    font-size: 16px;
+    color: #aaa;
+  }
+  
+  .blog-detail div {
+    font-size: 18px;
+    color: #444;
+    margin-top: 20px;
+  }
+  

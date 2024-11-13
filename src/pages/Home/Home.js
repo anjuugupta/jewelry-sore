@@ -6,6 +6,9 @@ import NewArrivals from "../../components/home/NewArrivals/NewArrivals";
 import Sale from "../../components/home/Sale/Sale";
 import SpecialOffers from "../../components/home/SpecialOffers/SpecialOffers";
 import YearProduct from "../../components/home/YearProduct/YearProduct";
+import FullScreenVideoSection from "../FullScreenVideoSection/FullScreenVideoSection";
+import JewelryHeroSection from "../JewelryHeroSection/JewelryHeroSection";
+import JewelryAd from "../../components/JewelryAd/JewelryAd";
 
 const Home = () => {
   return (
@@ -13,11 +16,16 @@ const Home = () => {
       <Banner />
       <BannerBottom />
       <div className="max-w-container mx-auto px-4">
-        <Sale />
-        <NewArrivals />
-        <BestSellers />
-        <YearProduct />
-        <SpecialOffers />
+        <div className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
+          <Sale />
+          <JewelryHeroSection />
+          <NewArrivals />
+          <JewelryAd/>
+          <BestSellers />
+          <YearProduct />
+          <SpecialOffers />
+          <FullScreenVideoSection />
+        </div>
       </div>
     </div>
   );

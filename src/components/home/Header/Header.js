@@ -3,7 +3,8 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { MdClose } from "react-icons/md";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { motion } from "framer-motion";
-import { logo, logoLight } from "../../../assets/images";
+import  logoImg  from "../../../assets/images/banner/logo.png";
+import logoLight from "../../../assets/images/logoLight.png"
 import Image from "../../designLayouts/Image";
 import { navBarList } from "../../../constants";
 import Flex from "../../designLayouts/Flex";
@@ -31,8 +32,8 @@ const Header = () => {
       <nav className="h-full px-4 max-w-container mx-auto relative">
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
-            <div>
-              <Image className="w-20 object-cover" imgSrc={logo} />
+            <div style={{width: '242px'}} >
+              <Image className=" object-cover" imgSrc={logoImg} />
             </div>
           </Link>
           <div>
@@ -71,7 +72,7 @@ const Header = () => {
                 >
                   <div className="w-full h-full bg-primeColor p-6">
                     <img
-                      className="w-28 mb-6"
+                      className="w-64 mb-6"
                       src={logoLight}
                       alt="logoLight"
                     />
