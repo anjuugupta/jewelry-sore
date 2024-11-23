@@ -28,9 +28,7 @@ const Footer = () => {
     }
   };
   return (
-
     <div className="w-full bg-[#f5a80c24] py-20">
-
       <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-4 gap-10">
         <div className="col-span-2">
           <FooterListTitle title=" More about Yashaarthi Gold Jewelry" />
@@ -83,7 +81,7 @@ const Footer = () => {
           <FooterListTitle title="Shop" />
           <ul className="flex flex-col gap-2">
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Wedding 
+              Wedding
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Casual
@@ -100,19 +98,13 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <FooterListTitle title="Your account" />
+          <FooterListTitle title="Customer Care" />
           <ul className="flex flex-col gap-2">
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Profile
+              +91 98989 89899
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Whish List
-            </li>
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Customer Care
-            </li>
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Ask Youre Question
+              +91 98765 43210
             </li>
           </ul>
         </div>
@@ -120,7 +112,8 @@ const Footer = () => {
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
             <p className="text-center mb-4">
-            Stay tuned for updates on our unique designs to make your occasion even more special.
+              Stay tuned for updates on our unique designs to make your occasion
+              even more special.
             </p>
             {subscription ? (
               <motion.p

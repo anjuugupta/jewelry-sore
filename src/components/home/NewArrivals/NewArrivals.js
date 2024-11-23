@@ -58,7 +58,7 @@ const NewArrivals = () => {
               _id="100001"
               img={newArrOne}
               productName="Pendant"
-              price="24 ct"
+              price="24"
               badge={true}
               des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
             />
@@ -70,7 +70,7 @@ const NewArrivals = () => {
               _id="100002"
               img={newArrTwo}
               productName="Bangle"
-              price="24 ct"
+              price="24"
               badge={true}
               des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
             />
@@ -82,7 +82,7 @@ const NewArrivals = () => {
               _id="100003"
               img={newArrThree}
               productName="Chain for Women"
-              price="24 ct"
+              price="24"
               badge={true}
               des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
             />
@@ -94,7 +94,7 @@ const NewArrivals = () => {
               _id="100004"
               img={newArrFour}
               productName="Chain for Men"
-              price="24 ct"
+              price="24"
               badge={false}
               des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
             />
@@ -106,7 +106,7 @@ const NewArrivals = () => {
               _id="100005"
               img={newArrTwo}
               productName="Custom Chain"
-              price="24 ct"
+              price="24"
               badge={false}
               des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
             />

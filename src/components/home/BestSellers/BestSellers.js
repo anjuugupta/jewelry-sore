@@ -18,7 +18,7 @@ const BestSellers = () => {
             _id="1011"
             img={bestSellerOne}
             productName="Necklace"
-            price="24 ct"
+            price="24"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />
@@ -28,7 +28,7 @@ const BestSellers = () => {
             _id="1012"
             img={bestSellerTwo}
             productName="Nose Pin"
-            price="24 ct"
+            price="24"
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />
@@ -37,7 +37,7 @@ const BestSellers = () => {
           _id="1013"
           img={bestSellerThree}
           productName="Chain"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -46,7 +46,7 @@ const BestSellers = () => {
             _id="1014"
             img={bestSellerFour}
             productName="Ring"
-            price="24 ct "
+            price="24 "
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />

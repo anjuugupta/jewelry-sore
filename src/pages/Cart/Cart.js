@@ -17,9 +17,9 @@ const Cart = () => {
     email: "",
     phone: "",
     uniqueID: "",
-    image: null,
+    image: "",
     termsAccepted: false,
-    likedProductID: "",  // New field to capture the liked product's ID
+    likedProductID: "",  
   });
 
   const [totalAmt, setTotalAmt] = useState("");
@@ -56,24 +56,55 @@ const Cart = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Handle form submission, including the liked product ID
-    console.log("Form Data Submitted:", formData);
-
-    // Reset form after submission
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      uniqueID: "",
-      image: null,
-      termsAccepted: false,
-      likedProductID: "",  // Reset liked product ID
-    });
+  
+    const cartDetails = products.map(({ name, price, quantity }) => ({
+      name,
+      price,
+      quantity,
+    }));
+  
+    const formDataObj = new FormData();
+    formDataObj.append("name", formData.name);
+    formDataObj.append("email", formData.email);
+    formDataObj.append("phone", formData.phone);
+    formDataObj.append("uniqueID", formData.uniqueID);
+    formDataObj.append("likedProductID", formData.likedProductID);
+    formDataObj.append("termsAccepted", formData.termsAccepted);
+    formDataObj.append("image", formData.image);
+    formDataObj.append("cart", JSON.stringify(cartDetails));
+  
+    try {
+      const response = await fetch("http://localhost:8000/submit", {
+        method: "POST",
+        body: formDataObj,
+      });
+  
+      if (response.ok) {
+        alert("Form submitted successfully! Check your email for confirmation.");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          uniqueID: "",
+          image: "",
+          termsAccepted: false,
+          likedProductID: "",
+        });
+        dispatch(resetCart());
+      } else {
+        const { message } = await response.json();
+        alert(`Failed to submit the form: ${message}`);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("There was an issue submitting the form. Please try again.");
+    }
   };
-
+  
+  
+  
   return (
     <div className="max-w-container mx-auto px-4">
       <Breadcrumbs title="Cart" />
@@ -143,30 +174,8 @@ const Cart = () => {
                   className="border p-2"
                 />
               </div>
-              <div className="flex flex-col">
-                <label htmlFor="uniqueID">Unique ID:</label>
-                <input
-                  type="text"
-                  id="uniqueID"
-                  name="uniqueID"
-                  value={formData.uniqueID}
-                  onChange={handleChange}
-                  required
-                  className="border p-2"
-                />
-              </div>
-              <div className="flex flex-col">
-                <label htmlFor="likedProductID">Liked Product's Unique ID:</label>
-                <input
-                  type="text"
-                  id="likedProductID"
-                  name="likedProductID"
-                  value={formData.likedProductID}
-                  onChange={handleChange}
-                  placeholder="Enter the ID of the product you liked"
-                  className="border p-2"
-                />
-              </div>
+             
+              
               <div className="flex flex-col">
                 <label htmlFor="image">Upload Image:</label>
                 <input

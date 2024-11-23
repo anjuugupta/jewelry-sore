@@ -39,7 +39,7 @@ const JewelryAd = () => {
           className="w-1/2 h-auto object-cover"
         />
         <p className="text-[#ab7813] font-medium mt-4">Gold Ring</p>
-        <p className="text-gray-800 text-lg font-semibold">24 ct</p>
+        <p className="text-gray-800 text-lg font-semibold">24</p>
       </div>
     </div>
   );

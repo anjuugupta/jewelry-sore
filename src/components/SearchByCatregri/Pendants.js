@@ -23,7 +23,7 @@ export const Pendants = () => {
 
           productName="Manglesutra"
 
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -31,7 +31,7 @@ export const Pendants = () => {
           _id="1102"
           img={spfTwo}
           productName="Bangel"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -39,7 +39,7 @@ export const Pendants = () => {
           _id="1103"
           img={spfThree}
           productName="Nosepin"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -47,7 +47,7 @@ export const Pendants = () => {
           _id="1104"
           img={spfFour}
           productName="Necklace"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -57,7 +57,7 @@ export const Pendants = () => {
 
           productName="Manglesutra"
 
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -65,7 +65,7 @@ export const Pendants = () => {
           _id="1102"
           img={spfTwo}
           productName="Bangel"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -73,7 +73,7 @@ export const Pendants = () => {
           _id="1103"
           img={spfThree}
           productName="Nosepin"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -81,7 +81,7 @@ export const Pendants = () => {
           _id="1104"
           img={spfFour}
           productName="Necklace"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -91,7 +91,7 @@ export const Pendants = () => {
 
           productName="Manglesutra"
 
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -99,7 +99,7 @@ export const Pendants = () => {
           _id="1102"
           img={spfTwo}
           productName="Bangel"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -107,7 +107,7 @@ export const Pendants = () => {
           _id="1103"
           img={spfThree}
           productName="Nosepin"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -115,7 +115,7 @@ export const Pendants = () => {
           _id="1104"
           img={spfFour}
           productName="Necklace"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -125,7 +125,7 @@ export const Pendants = () => {
 
           productName="Manglesutra"
 
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -133,7 +133,7 @@ export const Pendants = () => {
           _id="1102"
           img={spfTwo}
           productName="Bangel"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -141,7 +141,7 @@ export const Pendants = () => {
           _id="1103"
           img={spfThree}
           productName="Nosepin"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -149,7 +149,7 @@ export const Pendants = () => {
           _id="1104"
           img={spfFour}
           productName="Necklace"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -159,7 +159,7 @@ export const Pendants = () => {
 
           productName="Manglesutra"
 
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -167,7 +167,7 @@ export const Pendants = () => {
           _id="1102"
           img={spfTwo}
           productName="Bangel"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -175,7 +175,7 @@ export const Pendants = () => {
           _id="1103"
           img={spfThree}
           productName="Nosepin"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -183,7 +183,7 @@ export const Pendants = () => {
           _id="1104"
           img={spfFour}
           productName="Necklace"
-          price="24 ct"
+          price="24"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />

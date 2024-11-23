@@ -12,8 +12,8 @@ import Flex from "../../designLayouts/Flex";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(true);
   const [sidenav, setSidenav] = useState(false);
-  const [category, setCategory] = useState(false);
-  const [brand, setBrand] = useState(false);
+  // const [category, setCategory] = useState(false);
+  // const [brand, setBrand] = useState(false);
   const location = useLocation();
   useEffect(() => {
     let ResponsiveMenu = () => {
@@ -92,7 +92,7 @@ const Header = () => {
                         </li>
                       ))}
                     </ul>
-                    <div className="mt-4">
+                    {/* <div className="mt-4">
                       <h1
                         onClick={() => setCategory(!category)}
                         className="flex justify-between text-base cursor-pointer items-center font-titleFont mb-2"
@@ -137,7 +137,7 @@ const Header = () => {
                           <li className="headerSedenavLi">Others</li>
                         </motion.ul>
                       )}
-                    </div>
+                    </div> */}
                   </div>
                   <span
                     onClick={() => setSidenav(false)}
